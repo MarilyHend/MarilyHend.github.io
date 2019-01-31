@@ -1,0 +1,14 @@
+<h1>Pealkiri</h1>
+
+<div>
+Siin on üks rida.
+</div>
+
+<div id="vastus"></div>
+
+<script>
+kala=2;
+y=3;
+
+document.getElementById("vastus").innerHTML = kala+y;
+</script>
