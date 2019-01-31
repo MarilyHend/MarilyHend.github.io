@@ -1,23 +1,20 @@
-<h1>Pealkiri</h1>
-
-<div>
-Siin on üks rida.
-</div>
-
-<div id="vastus"></div>
+<div id="vastus" style= "color:red"></div>
 
 <script>
 kala=2;
-y=3;
+kass=3;
 
-document.getElementById("vastus").innerHTML = kala+y;
+document.getElementById("vastus").innerHTML = kala+kass;
+//alert (kala+kass);
 </script>
 
 
 <script>
-summa=0
-kordi=0
-while(kordi<100) {
+summa=0;
+kordi=0;
+while(kordi<=100) {
   summa=summa+kordi;
-  kordi=kordi+1
+  kordi=kordi+1;
 }
+document.getElementById("vastus").innerHTML = summa;
+</script>  
